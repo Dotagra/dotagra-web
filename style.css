@@ -589,3 +589,93 @@ footer {
         min-height: 280px;
     }
 }
+/* ===== OPRAVA HLAVIČKY A ÚVODU ===== */
+
+.site-header {
+    background: #ffffff;
+}
+
+.header-inner {
+    height: 82px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand {
+    display: block;
+    flex: 0 0 auto;
+    line-height: 0;
+}
+
+.brand img {
+    display: block;
+    width: 175px;
+    max-width: 175px;
+    height: auto;
+}
+
+.main-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 26px;
+}
+
+.hero-centered {
+    display: block;
+    min-height: auto;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.hero-centered .hero-content {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.hero-centered .hero-text {
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-centered .hero-buttons {
+    justify-content: center;
+}
+
+.hero-centered h1 {
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 900px) {
+    .brand img {
+        width: 145px;
+        max-width: 145px;
+    }
+}
+
+@media (max-width: 600px) {
+    .header-inner {
+        height: 72px;
+    }
+
+    .brand img {
+        width: 130px;
+        max-width: 130px;
+    }
+
+    .hero-centered {
+        text-align: left;
+        padding-top: 5px;
+    }
+
+    .hero-centered .hero-buttons {
+        justify-content: flex-start;
+    }
+}
