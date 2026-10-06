@@ -144,14 +144,12 @@ h3 {
 
 .hero-grid {
     min-height: 490px;
-    display: grid;
-    grid-template-columns: 1.15fr .85fr;
+    display: flex;
     align-items: center;
-    gap: 65px;
 }
 
 .hero-content {
-    max-width: 720px;
+    max-width: 900px;
 }
 
 .hero-text {
