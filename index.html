@@ -4,27 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Dotagra | Dotace jednoduše</title>
+    <title>Dotagra | Dotační poradenství</title>
+    <meta name="description" content="Pomáháme obcím, školám, neziskovým organizacím a firmám s přípravou a vedením dotačních projektů.">
 
-    <meta name="description"
-          content="Pomáháme obcím, školám, neziskovým organizacím a firmám s dotacemi od prvního nápadu až po realizaci.">
-
+    <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
-    <div class="container nav">
+<header class="site-header">
+    <div class="container header-inner">
 
-        <div class="logo">DOTAGRA</div>
+        <a href="index.html" class="brand">
+            <img src="logo-dotagra.jpg" alt="Dotagra">
+        </a>
 
-        <nav>
-            <a href="#pro-koho">Pro koho</a>
-            <a href="#jak-pomahame">Jak pomáháme</a>
-            <a href="#reference">Reference</a>
-            <a href="#novinky">Novinky</a>
-            <a href="#kontakt" class="nav-contact">Kontakt</a>
+        <nav class="main-nav">
+            <a href="sluzby.html">Služby</a>
+            <a href="pro-koho.html">Pro koho</a>
+            <a href="reference.html">Reference</a>
+            <a href="novinky.html">Novinky</a>
+            <a href="o-nas.html">O nás</a>
+            <a href="kontakt.html" class="nav-button">Kontakt</a>
         </nav>
 
     </div>
@@ -34,324 +36,239 @@
 <main>
 
     <!-- ÚVOD -->
-
     <section class="hero">
+        <div class="container hero-grid">
 
-        <div class="container hero-inner">
+            <div class="hero-content">
+                <p class="eyebrow">Dotační poradenství</p>
 
-            <div class="label">Dotační poradenství</div>
+                <h1>
+                    Dotacím rozumíme.<br>
+                    <span>Vy nemusíte.</span>
+                </h1>
 
-            <h1>
-                Dotace jednoduše.<br>
-                Od nápadu k realizaci.
-            </h1>
+                <p class="hero-text">
+                    Pomáháme obcím, školám, neziskovým organizacím a firmám
+                    připravit a zvládnout dotační projekty od prvního nápadu
+                    až po jejich dokončení.
+                </p>
 
-            <p>
-                Pomáháme obcím, školám, neziskovým organizacím
-                a firmám najít vhodnou dotaci a zvládnout celý projekt.
-                Srozumitelně a bez zbytečných komplikací.
-            </p>
+                <div class="hero-buttons">
+                    <a href="kontakt.html" class="button button-primary">
+                        Probrat projekt
+                    </a>
 
-            <a href="#kontakt" class="button">
-                Probrat projekt →
-            </a>
+                    <a href="sluzby.html" class="text-link">
+                        Jak vám pomůžeme →
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-graphic" aria-hidden="true">
+                <div class="graphic-d">D</div>
+                <div class="graphic-g">G</div>
+            </div>
 
         </div>
-
     </section>
 
 
     <!-- PRO KOHO -->
-
-    <section id="pro-koho" class="audience">
-
+    <section class="audience">
         <div class="container">
 
-            <div class="section-head">
-
-                <div class="label">Pro koho</div>
-
-                <div>
-                    <h2>
-                        Dobrý projekt může začít kdekoliv.
-                    </h2>
-
-                    <p>
-                        Nemusíte znát dotační programy ani jejich pravidla.
-                        Stačí nám říct, co chcete uskutečnit.
-                    </p>
-                </div>
-
+            <div class="section-heading centered">
+                <p class="eyebrow">Pro koho pracujeme</p>
+                <h2>Každý projekt začíná nápadem.</h2>
+                <p>
+                    Nemusíte vědět, jakou dotaci hledáte.
+                    Stačí vědět, co chcete uskutečnit.
+                </p>
             </div>
-
 
             <div class="audience-grid">
 
-                <div class="audience-item">
-                    <span class="number">01</span>
+                <a href="pro-koho.html" class="audience-item">
+                    <span>01</span>
                     <h3>Obce</h3>
-                    <p>Projekty, které zlepšují místo, kde lidé žijí.</p>
-                </div>
+                    <p>Projekty pro lepší život v obci.</p>
+                </a>
 
-                <div class="audience-item">
-                    <span class="number">02</span>
+                <a href="pro-koho.html" class="audience-item">
+                    <span>02</span>
                     <h3>Školy</h3>
-                    <p>Vzdělávání, vybavení a rozvoj škol.</p>
-                </div>
+                    <p>Vzdělávání, vybavení a rozvoj.</p>
+                </a>
 
-                <div class="audience-item">
-                    <span class="number">03</span>
-                    <h3>Neziskovky</h3>
-                    <p>Podpora smysluplných projektů a aktivit.</p>
-                </div>
+                <a href="pro-koho.html" class="audience-item">
+                    <span>03</span>
+                    <h3>Neziskové organizace</h3>
+                    <p>Podpora smysluplných projektů.</p>
+                </a>
 
-                <div class="audience-item">
-                    <span class="number">04</span>
+                <a href="pro-koho.html" class="audience-item">
+                    <span>04</span>
                     <h3>Firmy</h3>
-                    <p>Investice, inovace a další rozvoj.</p>
-                </div>
+                    <p>Investice, inovace a rozvoj.</p>
+                </a>
 
             </div>
-
         </div>
-
     </section>
 
 
     <!-- JAK POMÁHÁME -->
+    <section class="how">
+        <div class="container how-grid">
 
-    <section id="jak-pomahame">
-
-        <div class="container">
-
-            <div class="section-head">
-
-                <div class="label">Jak vám pomůžeme</div>
-
-                <div>
-                    <h2>
-                        Vy máte projekt.<br>
-                        My se postaráme o dotaci.
-                    </h2>
-
-                    <p>
-                        Provedeme vás celým procesem.
-                        Od prvního posouzení až po dokončení projektu.
-                    </p>
-                </div>
-
+            <div>
+                <p class="eyebrow">Jak to funguje</p>
+                <h2>Od nápadu až po dokončený projekt.</h2>
             </div>
-
 
             <div class="steps">
 
                 <div class="step">
-
-                    <strong>01</strong>
-
-                    <h3>Řeknete nám svůj záměr</h3>
-
-                    <p>
-                        Nemusíte vědět, jakou dotaci potřebujete.
-                        Začneme tím, co chcete uskutečnit.
-                    </p>
-
+                    <span>01</span>
+                    <div>
+                        <h3>Řeknete nám svůj záměr</h3>
+                        <p>Začneme tím, co chcete uskutečnit.</p>
+                    </div>
                 </div>
-
 
                 <div class="step">
-
-                    <strong>02</strong>
-
-                    <h3>Najdeme řešení</h3>
-
-                    <p>
-                        Prověříme možnosti financování
-                        a připravíme vše potřebné k žádosti.
-                    </p>
-
+                    <span>02</span>
+                    <div>
+                        <h3>Najdeme vhodnou cestu</h3>
+                        <p>Prověříme možnosti a připravíme projekt.</p>
+                    </div>
                 </div>
-
 
                 <div class="step">
-
-                    <strong>03</strong>
-
-                    <h3>Provedeme vás projektem</h3>
-
-                    <p>
-                        Pomůžeme s administrativou a hlídáme,
-                        aby projekt proběhl správně až do konce.
-                    </p>
-
+                    <span>03</span>
+                    <div>
+                        <h3>Provedeme vás realizací</h3>
+                        <p>Pomůžeme s projektem až do jeho dokončení.</p>
+                    </div>
                 </div>
+
+                <a href="sluzby.html" class="text-link">
+                    Více o našich službách →
+                </a>
 
             </div>
-
         </div>
-
     </section>
 
 
-    <!-- REFERENCE -->
+    <!-- O NÁS -->
+    <section class="about-preview">
+        <div class="container about-grid">
 
-    <section id="reference" class="references">
-
-        <div class="container">
-
-            <div class="section-head">
-
-                <div class="label">Reference</div>
-
-                <div>
-                    <h2>
-                        Zkušenosti z reálných projektů.
-                    </h2>
-
-                    <p>
-                        Pomáháme organizacím různých velikostí
-                        připravovat a realizovat jejich projekty.
-                    </p>
-                </div>
-
+            <div class="about-photo-placeholder">
+                <span>Vaše společná fotografie</span>
             </div>
 
-            <div class="reference-names">
-                <span>Obce</span>
-                <span>Školy</span>
-                <span>Výzkumné organizace</span>
-                <span>Neziskové organizace</span>
-                <span>Firmy</span>
+            <div class="about-content">
+                <p class="eyebrow">Kdo je Dotagra</p>
+
+                <h2>Dotace známe z praxe.</h2>
+
+                <p>
+                    Jsme tým dvou zkušených projektových manažerek.
+                    Řadu let se věnujeme přípravě a vedení projektů
+                    financovaných z různých operačních programů.
+                </p>
+
+                <p>
+                    Klienty celým procesem provázíme osobně a srozumitelně.
+                    Vždy víte, s kým svůj projekt řešíte.
+                </p>
+
+                <a href="o-nas.html" class="text-link">
+                    Poznejte nás →
+                </a>
             </div>
 
         </div>
-
     </section>
 
 
     <!-- NOVINKY -->
-
-    <section id="novinky">
-
+    <section class="news-preview">
         <div class="container">
 
-            <div class="section-head">
-
-                <div class="label">Novinky</div>
-
+            <div class="news-heading">
                 <div>
-                    <h2>
-                        Co je dobré vědět.
-                    </h2>
-
-                    <p>
-                        Důležité dotační příležitosti a změny
-                        vysvětlujeme stručně a srozumitelně.
-                    </p>
+                    <p class="eyebrow">Novinky</p>
+                    <h2>Co je dobré vědět.</h2>
                 </div>
 
+                <a href="novinky.html" class="text-link">
+                    Všechny novinky →
+                </a>
             </div>
-
 
             <div class="news-grid">
 
-                <article class="news-item">
-
-                    <div class="news-date">NOVINKA</div>
-
-                    <h3>
-                        Aktuální dotační příležitosti
-                    </h3>
-
+                <article class="news-card">
+                    <span>DOTACE</span>
+                    <h3>Aktuální dotační příležitosti</h3>
                     <p>
-                        Zde budeme zveřejňovat nové možnosti
-                        financování a důležité termíny.
+                        Přehled důležitých možností financování
+                        pro vaše projekty.
                     </p>
-
-                    <a href="#">Číst více →</a>
-
                 </article>
 
-
-                <article class="news-item">
-
-                    <div class="news-date">RADY A TIPY</div>
-
-                    <h3>
-                        Připravujete nový projekt?
-                    </h3>
-
+                <article class="news-card">
+                    <span>PROJEKTY</span>
+                    <h3>Na co myslet před podáním žádosti</h3>
                     <p>
-                        Kdy je nejlepší začít řešit
-                        možnosti dotačního financování?
+                        Praktické informace pro každého,
+                        kdo připravuje nový projekt.
                     </p>
-
-                    <a href="#">Číst více →</a>
-
-                </article>
-
-
-                <article class="news-item">
-
-                    <div class="news-date">DOTACE JEDNODUŠE</div>
-
-                    <h3>
-                        Nemusíte se vyznat ve všech pravidlech
-                    </h3>
-
-                    <p>
-                        Vysvětlíme, co je pro váš projekt
-                        skutečně důležité.
-                    </p>
-
-                    <a href="#">Číst více →</a>
-
                 </article>
 
             </div>
 
         </div>
-
     </section>
 
 
     <!-- KONTAKT -->
-
-    <section id="kontakt" class="contact">
-
+    <section class="contact-preview">
         <div class="container contact-inner">
 
-            <div class="label">Pojďme začít</div>
+            <p class="eyebrow">Máte projekt?</p>
 
             <h2>
-                Máte nápad na projekt?
+                Pojďme se podívat,<br>
+                jaké máte možnosti.
             </h2>
 
             <p>
-                Napište nám, co plánujete.
-                Společně zjistíme, jaké máte možnosti.
+                Nemusíte znát dotační program ani jeho pravidla.
+                Napište nám jednoduše, co plánujete.
             </p>
 
-            <a href="mailto:info@dotagra.cz" class="button">
-                Napsat Dotagře →
+            <a href="kontakt.html" class="button button-dark">
+                Ozvěte se nám
             </a>
 
         </div>
-
     </section>
 
 </main>
 
 
 <footer>
-
     <div class="container footer-inner">
 
-        <span>DOTAGRA</span>
-        <span>© 2026</span>
+        <img src="logo-dotagra.jpg" alt="Dotagra">
+
+        <p>© 2026 Dotagra</p>
 
     </div>
-
 </footer>
 
 </body>
