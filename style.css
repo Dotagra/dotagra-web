@@ -743,3 +743,8 @@ footer {
   display: none;
 }
 
+/* Dočasně skrytý odkaz Všechny novinky */
+.news-preview .text-link {
+  display: none;
+}
+
