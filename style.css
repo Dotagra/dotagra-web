@@ -687,3 +687,26 @@ footer {
   margin-bottom: 18px;
 }
 
+/* Jak to funguje – tři kroky vedle sebe */
+.steps {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px;
+}
+
+.steps .step {
+  display: block;
+  min-width: 0;
+  padding: 28px 20px;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+/* Úprava pro mobilní telefony */
+@media (max-width: 768px) {
+  .steps {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+}
+
