@@ -302,13 +302,13 @@ h3 {
     padding-top: 5px;
 }
 
+
 .step {
-    display: grid;
-    grid-template-columns: 50px 1fr;
-    gap: 18px;
-    padding: 20px 0;
-    border-bottom: 1px solid var(--line);
+  display: block;
+  padding: 24px 0;
+  border-bottom: 1px solid var(--line);
 }
+
 
 .step:first-child {
     border-top: 1px solid var(--line);
