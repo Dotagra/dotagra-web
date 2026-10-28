@@ -737,3 +737,8 @@ footer {
   object-fit: cover;
 }
 
+/* Dočasně skrytý odkaz Poznejte nás */
+.about-content .text-link {
+  display: none;
+}
+
