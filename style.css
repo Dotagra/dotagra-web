@@ -717,3 +717,8 @@ footer {
   text-align: center;
 }
 
+/* Dočasně skrytý odkaz na služby */
+.steps > .text-link {
+  display: none;
+}
+
