@@ -710,3 +710,10 @@ footer {
   }
 }
 
+/* Odkaz pod sekcí Jak to funguje */
+.steps .text-link {
+  grid-column: 1 / -1;
+  justify-self: center;
+  text-align: center;
+}
+
